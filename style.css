@@ -38,8 +38,8 @@ a{
     color: #FFFFFF;
 }
 .header__btn{
-    width: 182px;
-    height: 45px;
+    width: 116px;
+    height: 29px;
     background: #0088A9;
     border-radius: 100px;
     border: none;
@@ -47,7 +47,7 @@ a{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 16px;
     line-height: 30px;
     color: #FFFFFF;
 
