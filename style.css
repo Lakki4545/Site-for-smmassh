@@ -37,3 +37,20 @@ a{
     text-transform: uppercase;
     color: #FFFFFF;
 }
+.header__btn{
+    width: 182px;
+    height: 45px;
+    background: #0088A9;
+    border-radius: 100px;
+    border: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+
+
+}
