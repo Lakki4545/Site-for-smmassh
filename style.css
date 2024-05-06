@@ -27,15 +27,17 @@ a{
     font-size: 22px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #FFFFFF;
+    color: #00a9d3;
 }
 .header__link{
     font-family: 'Roboto';
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
     color: #FFFFFF;
+}
+.header__link:hover{
+    color: #a8a8a8;
 }
 .header__btn{
     width: 116px;
@@ -50,7 +52,5 @@ a{
     font-size: 16px;
     line-height: 30px;
     color: #FFFFFF;
-
-
-
+    text-align: center;
 }
