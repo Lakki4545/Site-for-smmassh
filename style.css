@@ -59,3 +59,59 @@ a{
     text-align: center;
     cursor: pointer;
 }
+
+.info{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    gap: 70px
+
+}
+.info__right{
+    background-image: url(img/1.png);
+    background-size: 100%;
+    border-radius: 131px;
+    width: 250px;
+    height: 250px;
+
+}
+.info__left{
+    height: 250px;
+    width: 800px;
+    background-color: #3f3f3f;
+    border-radius: 25px;
+
+}
+.info__title{
+    font-family: 'Roboto';
+    font-size: 22px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.info__text{
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin: 25px 55px;
+}
+.info__link{
+    background: #0088A9;
+    border-radius: 100px;
+    border: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 55px;
+    padding: 4px 8px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+}
