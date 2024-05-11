@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-
+@font-face {
+    font-family: Cygre-regular;
+    src: url(fonts/Cygre-Regular.ttf);
+}
+@font-face {
+    font-family: Cygre-black;
+    src: url(fonts/Cygre-Black.ttf);
+}
+@font-face {
+    font-family: Cygre-bold;
+    src: url(fonts/Cygre-Bold.ttf);
+}
+@font-face {
+    font-family: Cygre-medium;
+    src: url(fonts/Cygre-Medium.ttf);
+}
 body{
     margin: 0;
     background-color:rgb(48, 48, 48);
@@ -34,7 +48,7 @@ a{
     height: 50px;
 }
 .header__link{
-    font-family: 'Roboto';
+    font-family: 'Cygre-medium';
     font-size: 18px;
     line-height: 16px;
     letter-spacing: 0.05em;
@@ -50,7 +64,7 @@ a{
     border-radius: 100px;
     border: none;
 
-    font-family: 'Roboto';
+    font-family: 'Cygre-bold';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -83,7 +97,7 @@ a{
 
 }
 .info__title{
-    font-family: 'Roboto';
+    font-family: 'Cygre-bold';
     font-size: 22px;
     line-height: 16px;
     letter-spacing: 0.05em;
@@ -92,10 +106,10 @@ a{
     padding-bottom: 25px;
 }
 .info__text{
-    font-family: 'Roboto';
+    font-family: 'Cygre-bold';
     font-size: 16px;
-    line-height: 16px;
-    letter-spacing: 0.1em;
+    line-height: 22px;
+    letter-spacing: 0.05em;
     color: #FFFFFF;
     margin: 25px 55px;
 }
@@ -104,14 +118,15 @@ a{
     border-radius: 100px;
     border: none;
 
-    font-family: 'Roboto';
+    font-family: 'cygre-medium';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     margin-left: 55px;
-    padding: 4px 8px;
+    padding: 4px 10px;
     line-height: 30px;
     color: #FFFFFF;
     text-align: center;
     cursor: pointer;
 }
+
